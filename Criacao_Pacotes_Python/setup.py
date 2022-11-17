@@ -7,11 +7,11 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="simple_calculator",
+    name="simple_calculator_pws",
     version="0.0.1",
     author="Paulo William",
     author_email="ziunewill@gmail.com",
-    description="Calculadora basica para demonstração de criação de pacote",
+    description="Calculadora básica para demonstração de criação de pacote",
     long_description=page_description,
     long_description_content_type="text/markdown",
     url="https://github.com/PauloWilly/DIO_Projetos/Criacao_Pacotes_Python",
